@@ -4,7 +4,7 @@ Updated Tailscale Packages for Entware
 
 ## Installation
 
-1. Download `tailscale*.ipk`.
+1. Download and install `tailscale*.ipk`. (opkg install tailscale*.ipk)
 
 
 
