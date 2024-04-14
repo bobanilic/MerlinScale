@@ -5,7 +5,7 @@ This is a script for installing Tailscale on Asus Merlin Routers.
 ## Prerequisites
 
 - An Asus Merlin Router
-- Entware installed (from AMTM)
+- Entware installed (from AMTM preferably)
 
 ## Usage
 
