@@ -6,19 +6,15 @@ Updated Tailscale Packages for Entware
 
 1. Download `tailscale.ipk`.
 
-2. Don't forget to make the downloaded file executable. You can do this with the following command:
 
-    ```bash
-    chmod +x tailscale.ipk
-    ```
 
-3. Install the package. After installing, you need to start the `tailscaled` service:
+2. Install the package. After installing, you need to start the `tailscaled` service:
 
     ```bash
     /opt/etc/init.d/S06tailscaled start
     ```
 
-4. Run `tailscale up` and click on the link to authorize. Alternatively, you can use an auth key:
+3. Run `tailscale up` and click on the link to authorize. Alternatively, you can use an auth key:
 
     ```bash
     tailscale up --auth-key=<your-auth-key>
