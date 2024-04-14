@@ -1,3 +1,5 @@
+<details>
+  <summary>OLD</summary>
 # MerlinScale
 
 This is a script for installing Tailscale on Asus Merlin Routers.
@@ -71,3 +73,4 @@ After running the script, Tailscale should be installed and configured on your A
 4. For default commands just type `tailscale` to list, or execute (example): `tailscale start`.
 
 5. In order to use `tailscaled` start/stop/check use this command: `/opt/etc/init.d/S06tailscaled check`.
+</details>
