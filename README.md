@@ -43,3 +43,10 @@ To add your routes, use the following command (make sure to use your subnet):
 
     tailscale up --accept-routes --advertise-routes=192.168.0.0/24,192.168.1.0/24
 
+## DNS
+
+In case u want to run AdguardHome/PiHole alongside tailscale:
+
+
+    tailscale up --accept-dns=false
+
