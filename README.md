@@ -1,7 +1,39 @@
 # MerlinScale
-Script for installing Tailscale on Asus Merlin Routers
 
-## Installation
+This is a script for installing Tailscale on Asus Merlin Routers.
+
+## Prerequisites
+
+- An Asus Merlin Router
+- Entware installed (from AMTM)
+
+## Usage
+
+1. Download the script from this repository.
+2. Make the script executable by running `chmod +x script.sh`.
+3. Run the script using `./script.sh`.
+4. Follow the prompts to select the Tailscale version and architecture, and specify the USB storage name.
+5. The script will download and install the specified Tailscale version, update the Tailscale configuration, and authenticate Tailscale.
+6. When prompted, enter your routes (e.g., 192.168.0.0/24,192.168.1.0/24).
+
+## What the Script Does
+
+The script performs the following steps:
+
+1. Updates the package list and installs the `ca-bundle` package.
+2. Prompts you to enter the Tailscale version and architecture, and the USB storage name.
+3. Downloads and extracts the specified Tailscale version.
+4. Moves the necessary files to the appropriate directories.
+5. Updates the Tailscale configuration in `/opt/etc/init.d/S06tailscaled`.
+6. Checks for the latest Tailscale version and validates the architecture.
+7. Authenticates Tailscale.
+8. Prompts you to enter your routes and updates Tailscale with these routes.
+
+After running the script, Tailscale should be installed and configured on your Asus Merlin Router.
+
+
+
+## Installation (Manual)
 
 1. Install Entware (from AMTM) and other necessary packages:
     ```
