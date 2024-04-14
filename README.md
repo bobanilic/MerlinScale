@@ -1,6 +1,7 @@
 # MerlinScale
 Script for installing Tailscale on Asus Merlin Routers
 #####################################################
+
 Install Entware(from AMTM) and other necessary packages:
 opkg install ca-bundle​
 opkg install tailscale #(tailscale_nohf -use this if you can't install main)​
