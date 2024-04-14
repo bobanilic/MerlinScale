@@ -26,19 +26,24 @@ Updated Tailscale Packages for Entware
 
     You need to approve them in the Tailscale dashboard.
 
-Usage
-For default commands, just type tailscale to list, or execute (for example):
+## Usage
 
-tailscale start
+For default commands, just type `tailscale` to list, or execute (for example):
 
-In order to use tailscaled to start, stop, or check, use this command:
+    ```bash
+    tailscale start
+    ```
 
-/opt/etc/init.d/S06tailscaled check
+In order to use `tailscaled` to start, stop, or check, use this command:
+
+    ```bash
+    /opt/etc/init.d/S06tailscaled check
+    ```
 
 ## Configuration
 
 To add your routes, use the following command (make sure to use your subnet):
 
-```bash
-tailscale up --accept-routes --advertise-routes=192.168.0.0/24,192.168.1.0/24
-
+    ```bash
+    tailscale up --accept-routes --advertise-routes=192.168.0.0/24,192.168.1.0/24
+    ```
