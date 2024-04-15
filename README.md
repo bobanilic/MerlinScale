@@ -27,7 +27,7 @@ Updated Tailscale Packages for Entware
 For default commands, just type `tailscale` to list, or execute (for example):
 
 
-    tailscale start
+    tailscale version
 
 
 In order to use `tailscaled` to start, stop, or check, use this command:
